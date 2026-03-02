@@ -88,65 +88,31 @@ let cores = {
     branco:"#FFFFFF"
 }
 
-let teclas{
-    a: 
+let teclas = {
+    r: e.key === "r",
+    g: e.key === "g",
+    b: e.key === "b",
+    R: e.key === "R",
+    G: e.key === "G",
+    B: e.key === "B",
+    y: e.key === "y",
+    p: e.key === "p",
 }
-
 
 
 document.addEventListener("keydown", function(e){
     if (e.key === "r" || e.key === "R"){
         document.body.style.backgroundColor = "vermelho"
-        console.log(cores.vermelho)
     } else if(e.key === "g" || e.key === "G"){
         document.body.style.backgroundColor = "verde"
-        console.log(cores.verde)
     } else if(e.key === "b" || e.key === "B"){
         document.body.style.backgroundColor = "azul"
-        console.log(cores.azul)
     } else if(e.key === "y"){
         document.body.style.backgroundColor = "amarelo"
-        console.log(cores.amarelo)
     } else if(e.key === "p"){
         document.body.style.backgroundColor = "roxo"
-        console.log(cores.roxo)
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -180,8 +146,6 @@ document.addEventListener("keydown", function(e){
             console.log("(128,0,128)")
         }
 })
-
-// Exercício 9 - Cada tecla pressionada muda para a próxima cor da lista
 
 
 
