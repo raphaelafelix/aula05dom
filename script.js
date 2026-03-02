@@ -78,6 +78,77 @@ document.addEventListener("keydown", function(e){
 })
 
 // Exercício 7 - Refatore o código usando um objeto que guarda teclas e cores
+let cores = {
+    vermelho: "#FF0000",
+    azul:"#0000FF",
+    verde:"#008000",
+    amarelo:"#FFFF00",
+    roxo:"#A020F0",
+    preto: "#000000",
+    branco:"#FFFFFF"
+}
+
+let teclas{
+    a: 
+}
+
+
+
+document.addEventListener("keydown", function(e){
+    if (e.key === "r" || e.key === "R"){
+        document.body.style.backgroundColor = "vermelho"
+        console.log(cores.vermelho)
+    } else if(e.key === "g" || e.key === "G"){
+        document.body.style.backgroundColor = "verde"
+        console.log(cores.verde)
+    } else if(e.key === "b" || e.key === "B"){
+        document.body.style.backgroundColor = "azul"
+        console.log(cores.azul)
+    } else if(e.key === "y"){
+        document.body.style.backgroundColor = "amarelo"
+        console.log(cores.amarelo)
+    } else if(e.key === "p"){
+        document.body.style.backgroundColor = "roxo"
+        console.log(cores.roxo)
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
