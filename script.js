@@ -78,41 +78,51 @@ document.addEventListener("keydown", function(e){
 })
 
 // Exercício 7 - Refatore o código usando um objeto que guarda teclas e cores
-let cores = {
-    vermelho: "#FF0000",
-    azul:"#0000FF",
-    verde:"#008000",
-    amarelo:"#FFFF00",
-    roxo:"#A020F0",
-    preto: "#000000",
-    branco:"#FFFFFF"
-}
+// let cores = {
+//     vermelho: "#FF0000",
+//     azul:"#0000FF",
+//     verde:"#008000",
+//     amarelo:"#FFFF00",
+//     roxo:"#A020F0",
+//     preto: "#000000",
+//     branco:"#FFFFFF"
+// }
 
-let teclas = {
-    r: e.key === "r",
-    g: e.key === "g",
-    b: e.key === "b",
-    R: e.key === "R",
-    G: e.key === "G",
-    B: e.key === "B",
-    y: e.key === "y",
-    p: e.key === "p",
-}
+// let teclas = {
+//     r: e.key === "r",
+//     g: e.key === "g",
+//     b: e.key === "b",
+//     R: e.key === "R",
+//     G: e.key === "G",
+//     B: e.key === "B",
+//     y: e.key === "y",
+//     p: e.key === "p",
+//     d: e.key === "d",
+//     n: e.key === "n"
+// }
 
 
-document.addEventListener("keydown", function(e){
-    if (e.key === "r" || e.key === "R"){
-        document.body.style.backgroundColor = "vermelho"
-    } else if(e.key === "g" || e.key === "G"){
-        document.body.style.backgroundColor = "verde"
-    } else if(e.key === "b" || e.key === "B"){
-        document.body.style.backgroundColor = "azul"
-    } else if(e.key === "y"){
-        document.body.style.backgroundColor = "amarelo"
-    } else if(e.key === "p"){
-        document.body.style.backgroundColor = "roxo"
-    }
-})
+// document.addEventListener("keydown", function(e){
+//     if (e.key === "r" || e.key === "R"){
+//         document.body.style.backgroundColor = "vermelho"
+//     } else if(e.key === "g" || e.key === "G"){
+//         document.body.style.backgroundColor = "verde"
+//     } else if(e.key === "b" || e.key === "B"){
+//         document.body.style.backgroundColor = "azul"
+//     } else if(e.key === "y"){
+//         document.body.style.backgroundColor = "amarelo"
+//     } else if(e.key === "p"){
+//         document.body.style.backgroundColor = "roxo"
+//     } else if(e.key === "d"){
+//         document.body.style.backgroundColor = "	#FFFFE0"
+//         document.getElementById("h2").style.color = "gray"
+//         document.getElementById("paragrafo").style.color = "gray"
+//     } else if(e.key === "n"){
+//         document.body.style.backgroundColor = "black"
+//         document.getElementById("h2").style.color = "white"
+//         document.getElementById("paragrafo").style.color = "white"
+//     }
+// })
 
 
 
